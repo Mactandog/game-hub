@@ -41,8 +41,6 @@ const useGames = () => {
           if(err instanceof CanceledError) return;
           setError(err.message);
           setLoading(false);})
-          
-          // .finally(()=>setLoading(false));
 
         return () => controller.abort();
     }, []);
