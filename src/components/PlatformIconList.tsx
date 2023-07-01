@@ -22,7 +22,7 @@ const PlatformIconList = ({ platforms }: Props) => {
     pc: FaWindows,
     playstation: FaPlaystation,
     xbox: FaXbox,
-    apple: FaApple,
+    mac: FaApple,
     linux: FaLinux,
     android: FaAndroid,
     ios: MdPhoneIphone,
